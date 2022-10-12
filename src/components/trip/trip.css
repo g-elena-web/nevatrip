@@ -1,0 +1,220 @@
+.trip {
+    width: 92%;
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 27px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover-image {
+    height: 220px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.new-offer {
+    position: absolute;
+    top: 40px;
+    background-color: #FED74B;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 17px;
+}
+
+.length {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    color: #9E9E9E;
+}
+
+.length span {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.trip-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: top;
+    color: #404040;
+    margin: 10px 0;
+}
+
+.trip-description {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-item {
+    color: #4B4B4B;
+    margin: 5px 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.description-item span {
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.time-list {
+    display: block;
+    margin: 10px 0 5px 25px;
+}
+
+.time {
+    display: inline-block;
+    background-color: #D9E8FF;
+    border-radius: 11px;
+    width: 63px;
+    height: 24px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+}
+
+.time:hover,
+.time:active {
+    background-color: #6BA6FF;
+    color: white;
+    box-shadow: 0px 2px 4px 0px #00000040;
+}
+
+.trip-footer {
+    margin: 15px 0 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing {
+    margin-left: 10px;
+}
+
+.price {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 20px;
+    color: black;
+    margin: 0;
+}
+
+.extra-price {
+    font-size: 10px;
+    line-height: 20px;
+    color: black;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #FED74B;
+    border: 0.5px solid #CBA500;
+    font-size: 14px;
+}
+
+.trip a,
+.trip a:active,
+.trip a:visited {
+    color: black;
+}
+
+@media(min-width: 1080px) {
+    .trip {
+        flex-direction: row;
+        height: 369px;
+        max-width: 1106px;
+        margin: 50px auto;
+    }
+
+    .cover-image {
+        width: 85%;
+        height: 100%;
+    }
+
+    .trip-header {
+        flex-direction: column-reverse;
+    }
+
+    .trip-name {
+        font-size: 26px;
+        line-height: 34px;
+        margin: 4px 0;
+    }
+
+    .trip-description {
+        margin-left: 10px;
+        justify-content: space-between;
+    }
+
+    .length {
+        font-size: 14px;
+    }
+
+    .description-item {
+        margin: 7px 0;
+    }
+
+    .description-item span {
+        font-size: 18px;
+    }
+
+    .schedule {
+        flex-direction: row;
+    }
+
+    .time-list {
+        display: inline-block;
+        margin: 0 0 0 5px;
+    }
+
+    .trip-footer {
+        justify-content: flex-start;
+    }
+
+    .price {
+        font-size: 36px;
+    }
+
+    .extra-price {
+        font-size: 14px;
+    }
+
+    .pricing {
+        margin-left: 0;
+    }
+
+    .button {
+        font-size: 18px;
+        border: none;
+        margin-left: 10px;
+    }
+}
