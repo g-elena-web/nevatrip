@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/g-elena-web/nevatrip/static/css/main.4e1cf9e5.css",
+    "main.js": "/g-elena-web/nevatrip/static/js/main.76cae7e2.js",
+    "static/media/spb2.jpg": "/g-elena-web/nevatrip/static/media/spb2.1907f1a7629b0518facc.jpg",
+    "static/media/spb1.jpg": "/g-elena-web/nevatrip/static/media/spb1.b7d5b7e06b6e5bbc3c5d.jpg",
+    "static/media/spb3.jpg": "/g-elena-web/nevatrip/static/media/spb3.6cff0f4ab9e30a5f218f.jpg",
+    "static/media/clock.svg": "/g-elena-web/nevatrip/static/media/clock.2bfda18c5ee02b4676bf8541745ba9a0.svg",
+    "index.html": "/g-elena-web/nevatrip/index.html",
+    "static/media/check.svg": "/g-elena-web/nevatrip/static/media/check.29b8ed3cffe65eb9f131583f5468a1cb.svg",
+    "main.4e1cf9e5.css.map": "/g-elena-web/nevatrip/static/css/main.4e1cf9e5.css.map",
+    "main.76cae7e2.js.map": "/g-elena-web/nevatrip/static/js/main.76cae7e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1cf9e5.css",
+    "static/js/main.76cae7e2.js"
+  ]
+}
