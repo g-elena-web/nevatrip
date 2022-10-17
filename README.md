@@ -1,6 +1,6 @@
 ## 1. Верстка блока ##
 
-Верстка [по макету](https://www.figma.com/file/JyFQcxiynMH1i5ViWz4qi0/Layout-test-task) выполнена при помощи React и Bootstrap. 
+Верстка [по макету](https://www.figma.com/file/JyFQcxiynMH1i5ViWz4qi0/Layout-test-task) выполнена при помощи React и Bootstrap. Весь код доступен в репозитории.
 
 С помощью React-компонента Trip можно динамически создавать блоки для каждой экскурсии с любыми данными. Данные о каждой экскурсии хранятся в массиве в файле trips.js
 
